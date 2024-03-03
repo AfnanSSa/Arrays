@@ -24,7 +24,7 @@ public class ArraySum {
         int sum = 0;
         int[] resultArray = new int[numArray.length]; //array to store the new values
         //iterate through array
-        for (int i = 0; i <= numArray.length - 1; i++) {
+        for (int i = 0; i < numArray.length; i++) {
             sum = sum + numArray[i]; //adding index to the sum
             resultArray[i] = sum; //storing sum in result array
         }
