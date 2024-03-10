@@ -17,8 +17,8 @@ import java.util.List;
 public class SubsetsOfSet {
     public static void main (String[] args){
         Integer [] numArray = {1,2,3}; //array of integers
-        System.out.println("\nOriginal Array Set: " + Arrays.toString(numArray));
-        System.out.println("Subsets: " + generateSubsets(numArray));
+        System.out.println("\nOriginal Array Set: " + Arrays.toString(numArray)); //printing the original array
+        System.out.println("Subsets: " + generateSubsets(numArray)); //printing subsets 
     }
     //method to find and print subsets
     public static List<List<Integer>> generateSubsets(Integer [] numArray){
