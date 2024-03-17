@@ -6,7 +6,6 @@
 * Implement the Selection Sort algorithm to sort the array in ascending order.
 * The sorting logic should be encapsulated in a method named selectionSort.
 * After sorting, the array should be printed to the console to display the sorted order.*/
-
 import java.util.Arrays;
 
 public class SelectionSort {
@@ -31,11 +30,11 @@ public class SelectionSort {
         Integer arraySize = originalArray.length;
 
         //iterating through array
-        for (Integer i = 0; i<arraySize-1; i++){
+        for (Integer i = 0; i<arraySize; i++){
             Integer minimum = i; //assuming current index has the minimum value
 
             //looking for a smaller value
-            for (Integer j=i; j<arraySize-1; j++){
+            for (Integer j=i; j<arraySize; j++){
                 //if smaller value was found
                 if (originalArray[j] < originalArray[minimum]){
                     minimum = j; //update value of minimum (new minimum value)
