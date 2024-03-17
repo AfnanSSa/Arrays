@@ -6,6 +6,7 @@
 * Implement the Selection Sort algorithm to sort the array in ascending order.
 * The sorting logic should be encapsulated in a method named selectionSort.
 * After sorting, the array should be printed to the console to display the sorted order.*/
+
 import java.util.Arrays;
 
 public class SelectionSort {
