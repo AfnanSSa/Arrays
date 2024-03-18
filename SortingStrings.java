@@ -46,8 +46,10 @@ public class StringsSort {
             for (Integer j = i + 1; j < arraySize; j++) {
 
                 //compare the current element to remaining elements using compareTo() method
+                //compareTo(): compares strings on the basis of the Unicode value of each character in the strings.
                 if ((stringArray.get(i)).compareTo(stringArray.get(j)) > 0) {
-                    //swapping/updating values using set() method
+                    
+                    //swapping/replacing values using set() method
                     String temporary = stringArray.get(i);
                     stringArray.set(i, stringArray.get(j));
                     stringArray.set(j, temporary);
